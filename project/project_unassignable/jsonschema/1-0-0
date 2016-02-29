@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "project_unassignable",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "project_unassignable",
+    "description": "Store Project unassignable extra data.",
+    "properties": {
+        "reason": {
+            "type": "string"
+        }
+    },
+    "required": ["reason"],
+    "additionalProperties": false
+}
