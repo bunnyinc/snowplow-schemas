@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "click_add_booking_link",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "click_add_booking_link",
+    "description": "Store click add booking link data.",
+    "properties": {
+        "target": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "classes": {
+            "type": "string"
+        },
+        "elemetId": {
+            "type": "string"
+        },
+        "path": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "referenceId": {
+            "type": "string"
+        }
+    },
+    "required": ["target", "text", "classes", "elemetId", "path"],
+    "additionalProperties": false
+}
