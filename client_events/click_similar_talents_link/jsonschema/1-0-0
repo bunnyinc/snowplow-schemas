@@ -29,7 +29,7 @@
             "type": "string"
         },
         "referenceId": {
-            "type": "string"
+            "type": "number"
         }
     },
     "required": ["target", "text", "classes", "elemetId", "path"],
