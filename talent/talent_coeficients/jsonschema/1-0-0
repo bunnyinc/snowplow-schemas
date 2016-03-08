@@ -8,7 +8,7 @@
     },
     "type": "object",
     "title": "talent_coeficients",
-    "description": "Store talet coeficients update data.",
+    "description": "Store talent coeficients update data.",
     "properties": {
         "seed_data": {
             "type": "string"
