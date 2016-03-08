@@ -2,13 +2,13 @@
     "$schema": "http://json-schema.org/draft-04/schema#",
     "self": {
         "vendor": "bunnyinc.com",
-        "name": "click_add_booking_link",
+        "name": "click_add_similar_link",
         "format": "jsonschema",
         "version": "1-0-0"
     },
     "type": "object",
-    "title": "click_add_booking_link",
-    "description": "Store click add booking link data.",
+    "title": "click_add_similar_link",
+    "description": "Store click similar link data.",
     "properties": {
         "target": {
             "type": "string"
