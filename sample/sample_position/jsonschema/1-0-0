@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "search_position",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "search_position",
+    "description": "Store page and position where the sample was when an event happen",
+    "properties": {
+        "page": {
+            "type": "number"
+        },
+        "position": {
+            "type": "number"
+        }
+    },
+    "required": ["page", "position"],
+    "additionalProperties": false
+}
