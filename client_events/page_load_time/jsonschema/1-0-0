@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "page_load_time",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "page_load_time",
+    "description": "Store page load time",
+    "properties": {
+        "time": {
+            "type": "integer",
+            "maximum": 9223372036854775807,
+            "minimum": 0
+        },
+        "chromeFirstPaint": {
+            "type": "integer",
+            "maximum": 9223372036854775807,
+            "minimum": 0
+        }
+    },
+    "required": ["time"],
+    "additionalProperties": false
+}
