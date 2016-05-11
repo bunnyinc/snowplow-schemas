@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "ab_test_attribution",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "ab_test_attribution",
+    "description": "Ab test attribution for an event",
+    "properties": {
+        "ab_test": {
+            "type": "string"
+        },
+        "split": {
+            "type": "string"
+        }
+    },
+    "required": ["ab_test", "split"],
+    "additionalProperties": false
+}
