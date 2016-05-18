@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "project_form_view_data",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "project_form_view_data",
+    "description": "Project form view data",
+    "properties": {
+        "from_draft": {
+            "type": "boolean"
+        }
+    },
+    "required": ["from_draft"],
+    "additionalProperties": false
+}
