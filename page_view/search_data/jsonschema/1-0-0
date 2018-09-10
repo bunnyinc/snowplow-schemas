@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "project_search_data",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "search_data",
+    "description": "Search data",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "string"
+        }
+    },
+    "required": ["message"],
+    "additionalProperties": false
+}
