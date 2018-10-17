@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "post_production_data",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "post_production_data",
+    "description": "Post-production data",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "string"
+        }
+    },
+    "required": ["message"],
+    "additionalProperties": false
+}
