@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "self": {
+        "vendor": "bunnyinc.com",
+        "name": "ab_test_view_data",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+    "type": "object",
+    "title": "ab_test_view_data",
+    "description": "AB test view data",
+    "properties": {
+        "message": {
+            "type": "string"
+        },
+        "data": {
+            "type": "string"
+        }
+    },
+    "required": ["message"],
+    "additionalProperties": false
+}
